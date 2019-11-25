@@ -1,0 +1,10 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# Gem Files
+Gemfile.lock
+
+# Logs
+*.log
