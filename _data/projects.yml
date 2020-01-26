@@ -1,0 +1,29 @@
+- title: Project X
+  repo: https://github.com/zero-based
+  award: Best Project
+  website: https://zero-based.github.io
+  event: Project Event
+  date: MMM YYYY
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
+  contributors: [c1, c2, c3, c4, c5]
+  tools: [tool-1, tool-2, tool-3]
+
+- title: Project X
+  repo: https://github.com/zero-based
+  award: Best Project
+  website: https://zero-based.github.io
+  event: Project Event
+  date: MMM YYYY
+  description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias suscipit, quisquam voluptates, fugit magnam perferendis pariatur id nesciunt mollitia tempora reiciendis quo corporis, nobis assumenda culpa? Modi at eveniet ea quae accusantium nostrum iste sint laborum eligendi. Ut, nisi recusandae.
+  contributors: [c1, c2, c3, c4, c5]
+  tools: [tool-1, tool-2, tool-3]
+
+- title: Project X
+  repo: https://github.com/zero-based
+  award: Best Project
+  website: https://zero-based.github.io
+  event: Project Event
+  date: MMM YYYY
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
+  contributors: [c1, c2, c3, c4, c5]
+  tools: [tool-1, tool-2, tool-3]

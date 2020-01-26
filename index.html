@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="row h-100">
-  <div class="col text-center text-white text-monospace my-auto">
-    <h1>{{ site.title }}</h1>
-  </div>
+<div class="Container">
+  {% for project in site.data.projects %}
+    {% include project-card.html %}
+  {% endfor %}
 </div>

@@ -1,0 +1,50 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  padding: 132px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $white;
+  padding: 48px;
+  .Header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    .Logo > svg {
+      width: 48px;
+    }
+    .Icons {
+      margin: auto 0 auto auto;
+     svg {
+        margin-left: 4px;
+        width: 24px;
+      }
+    }
+  }
+  .Title {
+    margin-bottom: 4px;
+  }
+
+  .Description {
+    margin: 32px 0;
+  }
+
+  .Contributors {
+    margin-top: auto;
+    margin-bottom: 32px;
+    img {
+      width: 24px;
+      border-radius: 50%;
+      border: 1.8px solid $white;
+    }
+  }
+
+  .Tools {
+    word-spacing: 8px;
+    color: $gray;
+  }
+}
