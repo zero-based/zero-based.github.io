@@ -1,0 +1,7 @@
+@mixin headings($start: 1, $end: 6) {
+  @for $i from $start through $end {
+    h#{$i} {
+      @content
+    }
+  }
+}

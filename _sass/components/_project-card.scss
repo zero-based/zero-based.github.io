@@ -1,0 +1,45 @@
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $white;
+  padding: 48px;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  &-body {
+    margin: 32px 0;
+  }
+
+  &-footer {
+    margin-top: auto;
+  }
+
+  &-logo svg {
+    width: 48px;
+  }
+
+  &-icons svg {
+    margin-left: 4px;
+    width: 24px;
+  }
+
+  &-title {
+    margin-bottom: 4px;
+  }
+
+  &-contributors img {
+    width: 24px;
+    border-radius: 50%;
+    border: 1.8px solid $white;
+  }
+
+  &-tools {
+    margin-top: 24px;
+    word-spacing: 8px;
+  }
+}

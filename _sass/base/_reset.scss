@@ -1,0 +1,18 @@
+body {
+  background: $black;
+  padding: 10vw;
+}
+
+* {
+  color: $white;
+  fill: $white;
+  text-decoration: none;
+}
+
+@include headings {
+  margin: 0;
+}
+
+@include headings(4, 6) {
+  color: $gray;
+}

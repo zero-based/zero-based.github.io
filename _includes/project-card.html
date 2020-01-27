@@ -1,23 +1,23 @@
-<div class="Card">
-  <div class="Header">
-    <div class="Logo">
+<div class="ProjectCard">
+  <div class="ProjectCard-header">
+    <div class="ProjectCard-logo">
       {% assign icon_path = project.title | slugify | prepend: 'icons/projects/' | append: '.svg' %}
       {% include {{ icon_path }} %}
     </div>
-    <div class="Icons">
-      {% if project.repo != "" %}
+    <div class="ProjectCard-icons">
+      {% if project.repo %}
       <a href="{{ project.repo }}">
         {% include icons/github.svg %}
       </a>
       {% endif %}
 
-      {% if project.award != "" %}
+      {% if project.award %}
       <a class="tooltip-slide" aria-label="{{ project.award }}" data-balloon-pos="down">
         {% include icons/award.svg %}
       </a>
       {% endif %}
 
-      {% if project.website != "" %}
+      {% if project.website %}
       <a href="{{ project.website }}">
         {% include icons/website.svg %}
       </a>
@@ -25,23 +25,22 @@
     </div>
   </div>
 
-  <h1 class="Title">{{ project.title }}</h1>
+  <h1 class="ProjectCard-title">{{ project.title }}</h1>
+  <h4>{{ project.event }}</h4>
+  <h4>{{ project.date }}</h4>
+  <p class="ProjectCard-body">{{ project.description }}</p>
 
-  <div class="Meta">
-    <h4>{{ project.event }}</h4>
-    <h4>{{ project.date }}</h4>
+  <div class="ProjectCard-footer">
+    <div class="ProjectCard-contributors">
+      {% for contributor in project.contributors %}
+      {% assign info = site.data.team[contributor] %}
+      <a href="https://github.com/{{ info.username }}" aria-label="@{{ info.username }}" data-balloon-pos="down">
+        <img src="{{ info.img }}" />
+      </a>
+      {% endfor %}
+    </div>
+
+    <h4 class="ProjectCard-tools">{{ project.tools | join: " " }}</h4>
   </div>
 
-  <p class="Description">{{ project.description }}</p>
-
-  <div class="Contributors">
-    {% for contributor in project.contributors %}
-    {% assign info = site.data.team[contributor] %}
-    <a href="https://github.com/{{ info.username }}" aria-label="@{{ info.username }}" data-balloon-pos="down">
-      <img src="{{ info.img }}" />
-    </a>
-    {% endfor %}
-  </div>
-
-  <h4 class="Tools">{{ project.tools | join: " " }}</h4>
 </div>
