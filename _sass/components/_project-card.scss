@@ -1,8 +1,8 @@
 .ProjectCard {
   display: flex;
   flex-direction: column;
-  border: $border-x2;
   padding: 48px;
+  background-color: $black;
 
   &-header {
     display: flex;
@@ -41,5 +41,19 @@
   &-tools {
     margin-top: 24px;
     word-spacing: 8px;
+  }
+
+  &--container {
+    display: grid;
+  }
+
+  &--outline {
+    grid-area: 1 / 1;
+    border: $border-x2;
+  }
+
+  transition: transform 0.32s;
+  &:hover {
+    transform: translate(-16px, -16px);
   }
 }

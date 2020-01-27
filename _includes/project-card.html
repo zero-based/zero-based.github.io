@@ -1,46 +1,50 @@
-<div class="ProjectCard">
-  <div class="ProjectCard-header">
-    <div class="ProjectCard-logo">
-      {% assign icon_path = project.title | slugify | prepend: 'icons/projects/' | append: '.svg' %}
-      {% include {{ icon_path }} %}
-    </div>
-    <div class="ProjectCard-icons">
-      {% if project.repo %}
-      <a href="{{ project.repo }}">
-        {% include icons/github.svg %}
-      </a>
-      {% endif %}
+<div class="ProjectCard--container">
+  <div class="ProjectCard--outline"></div>
+  <div class="ProjectCard ProjectCard--outline">
+    <div class="ProjectCard-header">
+      <div class="ProjectCard-logo">
+        {% assign icon_path = project.title | slugify | prepend: 'icons/projects/' | append: '.svg' %}
+        {% include {{ icon_path }} %}
+      </div>
+      <div class="ProjectCard-icons">
+        {% if project.repo %}
+        <a href="{{ project.repo }}">
+          {% include icons/github.svg %}
+        </a>
+        {% endif %}
 
-      {% if project.award %}
-      <a class="tooltip-slide" aria-label="{{ project.award }}" data-balloon-pos="down">
-        {% include icons/award.svg %}
-      </a>
-      {% endif %}
+        {% if project.award %}
+        <a class="tooltip-slide" aria-label="{{ project.award }}" data-balloon-pos="down">
+          {% include icons/award.svg %}
+        </a>
+        {% endif %}
 
-      {% if project.website %}
-      <a href="{{ project.website }}">
-        {% include icons/website.svg %}
-      </a>
-      {% endif %}
-    </div>
-  </div>
-
-  <h1 class="ProjectCard-title">{{ project.title }}</h1>
-  <h4>{{ project.event }}</h4>
-  <h4>{{ project.date }}</h4>
-  <p class="ProjectCard-body">{{ project.description }}</p>
-
-  <div class="ProjectCard-footer">
-    <div class="ProjectCard-contributors">
-      {% for contributor in project.contributors %}
-      {% assign info = site.data.team[contributor] %}
-      <a href="https://github.com/{{ info.username }}" aria-label="@{{ info.username }}" data-balloon-pos="down">
-        <img src="{{ info.img }}" />
-      </a>
-      {% endfor %}
+        {% if project.website %}
+        <a href="{{ project.website }}">
+          {% include icons/website.svg %}
+        </a>
+        {% endif %}
+      </div>
     </div>
 
-    <h4 class="ProjectCard-tools">{{ project.tools | join: " " }}</h4>
+    <h1 class="ProjectCard-title">{{ project.title }}</h1>
+    <h4>{{ project.event }}</h4>
+    <h4>{{ project.date }}</h4>
+    <p class="ProjectCard-body">{{ project.description }}</p>
+
+    <div class="ProjectCard-footer">
+      <div class="ProjectCard-contributors">
+        {% for contributor in project.contributors %}
+        {% assign info = site.data.team[contributor] %}
+        <a href="https://github.com/{{ info.username }}" aria-label="@{{ info.username }}" data-balloon-pos="down">
+          <img src="{{ info.img }}" />
+        </a>
+        {% endfor %}
+      </div>
+
+      <h4 class="ProjectCard-tools">{{ project.tools | join: " " }}</h4>
+    </div>
+
   </div>
 
 </div>
