@@ -37,7 +37,7 @@
         {% for contributor in project.contributors %}
         {% assign info = site.data.team[contributor] %}
         <a href="https://github.com/{{ info.username }}" aria-label="@{{ info.username }}" data-balloon-pos="down">
-          <img src="{{ info.img }}" />
+          <img src="{{ info.img }}" alt="@{{ info.username }}" />
         </a>
         {% endfor %}
       </div>
