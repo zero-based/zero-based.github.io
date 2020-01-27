@@ -1,0 +1,10 @@
+<section>
+  <div class="Container">
+    <div class="CardsContainer">
+      {% for project in site.data.projects %}
+      {% include project-card.html %}
+      {% endfor %}
+    </div>
+    <a class="Button Button--extraMargins">See more</a>
+  </div>
+</section>
