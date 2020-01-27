@@ -1,6 +1,6 @@
 body {
   background: $black;
-  padding: 10vw;
+  padding: 0 10vw;
 }
 
 * {
@@ -15,4 +15,9 @@ body {
 
 @include headings(4, 6) {
   color: $gray;
+}
+
+section {
+  margin-top: 5vw;
+  margin-bottom: 15vw;
 }
