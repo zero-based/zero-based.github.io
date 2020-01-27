@@ -1,0 +1,12 @@
+.AnimatedLink {
+  padding: 8px 4px;
+  background-image: linear-gradient(to left, $white 0, $white 100%);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 0;
+  transition: background 0.5s;
+  &:hover {
+    color: $black;
+    background-size: 100% 100%;
+  }
+}
