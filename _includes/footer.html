@@ -1,7 +1,5 @@
 <footer>
-  <a class="AnimatedLink" href="https://www.github.com/zero-based">lorem</a>
-  <a class="AnimatedLink" href="https://www.github.com/zero-based">ipsum</a>
-  <a class="AnimatedLink" href="https://www.github.com/zero-based">dolor</a>
-  <a class="AnimatedLink" href="https://www.github.com/zero-based">sit</a>
-  <a class="AnimatedLink" href="https://www.github.com/zero-based">amet</a>
+  {% for link in site.data.footer %}
+    <a class="AnimatedLink" href="{{ link }}">{{ link[0] }}</a>
+  {% endfor %}
 </footer>
