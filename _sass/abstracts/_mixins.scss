@@ -1,7 +1,13 @@
 @mixin headings($start: 1, $end: 6) {
   @for $i from $start through $end {
     h#{$i} {
-      @content
+      @content;
     }
+  }
+}
+
+@mixin min-width($breakpoint) {
+  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
   }
 }

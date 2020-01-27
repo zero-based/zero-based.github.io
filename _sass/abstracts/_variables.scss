@@ -5,3 +5,11 @@ $gray: #6c757d;
 $border-style: solid $white;
 $border-x1: 1.8px $border-style;
 $border-x2: 2.2px $border-style;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
