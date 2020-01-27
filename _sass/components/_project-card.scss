@@ -1,7 +1,7 @@
 .ProjectCard {
   display: flex;
   flex-direction: column;
-  border: 2px solid $white;
+  border: $border-x2;
   padding: 48px;
 
   &-header {
@@ -35,7 +35,7 @@
   &-contributors img {
     width: 24px;
     border-radius: 50%;
-    border: 1.8px solid $white;
+    border: $border-x1;
   }
 
   &-tools {

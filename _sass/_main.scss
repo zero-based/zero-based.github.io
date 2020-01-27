@@ -9,9 +9,11 @@
 @import 'base/typography';
 @import 'base/scrollbars';
 
-@import 'layout/card-container';
+@import 'layout/cards-container';
 @import 'layout/header';
+@import 'layout/projects';
 
+@import 'components/button';
 @import 'components/project-card';
 
 // @import 'pages/...';
