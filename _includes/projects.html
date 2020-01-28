@@ -1,10 +1,12 @@
 <section>
   <div class="Container">
     <div class="CardsContainer">
+      {% assign delay = 0.2 %}
       {% for project in site.data.projects %}
+      {% assign delay = delay | plus: 0.2 %}
       {% include project-card.html %}
       {% endfor %}
     </div>
-    <a class="Button Button--extraMargins" href="/archive" target="_self">See more</a>
+    <a href="/archive" class="Button Button--extraMargins wow fadeInUp slow" data-wow-delay="0.2s" target="_self">See more</a>
   </div>
 </section>

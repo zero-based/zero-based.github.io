@@ -1,5 +1,7 @@
 <footer>
+  {% assign delay = 0.4 %}
   {% for link in site.data.footer %}
-    <a class="AnimatedLink" href="{{ link }}">{{ link[0] }}</a>
+  {% assign delay = delay | plus: 0.2 %}
+  <a href="{{ link }}" class="AnimatedLink wow fadeInDown" data-wow-delay="{{ delay }}s">{{ link[0] }}</a>
   {% endfor %}
 </footer>
