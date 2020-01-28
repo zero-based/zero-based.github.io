@@ -3,28 +3,14 @@ body {
   padding: 0 10vw;
 }
 
-* {
-  color: $white;
+svg {
   fill: $white;
+}
+
+a {
   text-decoration: none;
 }
 
 @include headings {
   margin: 0;
-}
-
-@include headings(4, 6) {
-  &, * {
-    color: $gray;
-  }
-}
-
-::selection {
-  background: $white;
-  color: $black;
-}
-
-::-moz-selection {
-  background: $white;
-  color: $black;
 }

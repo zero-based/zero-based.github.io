@@ -4,24 +4,23 @@ layout: default
 
 <div class="Page">
 
+  <h4 class="wow fadeInLeft" data-wow-delay="0.1s">
+    {% assign path = page.url | remove: '.html' | remove: '.md' | split: '/' %}
+    {% for part in path %}
+    <a href="/{{ part }}" target="_self">
+      {% if part == "" %}
+      {{ site.title }}
+      {% else %}
+      {{ part | capitalize }}
+      {% endif %}
+    </a>
+    {% unless forloop.last %}/{% endunless %}
+    {% endfor %}
+  </h4>
+
   <div class="Page-header">
-    <h4 class="wow fadeInLeft" data-wow-delay="0.1s">
-      {% assign path = page.url | remove: '.html' | remove: '.md' | split: '/' %}
-      {% for part in path %}
-      <a href="/{{ part }}" target="_self">
-        {% if part == "" %}
-        {{ site.title }}
-        {% else %}
-        {{ part | capitalize }}
-        {% endif %}
-      </a>
-      {% unless forloop.last %}/{% endunless %}
-      {% endfor %}
-    </h4>
-
-    <h1 class="wow fadeIn slower" data-wow-delay="0.2s">{{ page.name  | remove: '.html' | remove: '.md' | capitalize }}</h1>
+    <h1 class="Display-4 wow fadeIn slower" data-wow-delay="0.2s">{{ page.name  | remove: '.html' | remove: '.md' | capitalize }}</h1>
     <h4 class="wow fadeInUp slow" data-wow-delay="0.4s">{{ page.description }}</h4>
-
   </div>
 
   <div class="wow fadeIn slower" data-wow-delay="0.6s">

@@ -6,10 +6,34 @@ body {
   font-size: 14px;
 }
 
-@include headings {
+* {
+  color: $white;
   font-weight: 200;
 }
 
 @include headings(1, 3) {
   font-family: "Playfair Display", serif;
+}
+
+@include headings(4, 6) {
+  &,
+  * {
+    color: $gray;
+  }
+}
+
+@for $i from 0 through 5 {
+  $size_step: 2;
+  $margin_step: 6;
+
+  .Display-#{$i + 1} {
+    font-size: #{20 - $i * $size_step}vw;
+    margin-bottom: #{60 - $i * $margin_step}px;
+    line-height: 0.8;
+  }
+}
+
+@include selection {
+  background: $white;
+  color: $black;
 }
