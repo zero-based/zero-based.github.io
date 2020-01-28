@@ -1,0 +1,45 @@
+.ArchiveTable {
+  width: 100%;
+  text-align: left;
+  margin: 32px 0;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 8px 16px;
+  }
+
+  th {
+    padding-bottom: 16px;
+  }
+
+  &-links {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+
+    svg {
+      width: 24px;
+    }
+    :not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  tr:not(:first-child) {
+    transition: background 0.4s;
+    &:hover {
+      background-color: darken($gray, 32);
+    }
+  }
+
+  &--hideOnMobile {
+    display: none;
+  }
+
+  @include min-width(md) {
+    &--hideOnMobile {
+      display: table-cell;
+    }
+  }
+}

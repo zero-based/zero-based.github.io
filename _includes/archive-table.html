@@ -1,0 +1,28 @@
+<table class="ArchiveTable">
+  <tr>
+    <th>Date</th>
+    <th>Title</th>
+    <th class="ArchiveTable--hideOnMobile">Event</th>
+    <th class="ArchiveTable--hideOnMobile">Tools</th>
+    <th class="ArchiveTable--hideOnMobile">Awards</th>
+    <th class="ArchiveTable-links">Links</th>
+  </tr>
+  {% for project in site.data.projects %}
+  <tr>
+    <td>{{ project.date | split: ' ' | shift }}</td>
+    <td>{{ project.title }}</td>
+    <td class="ArchiveTable--hideOnMobile">{{ project.event | default: '-' }}</td>
+    <td class="ArchiveTable--hideOnMobile">{{ project.tools | join: ' • '}}</td>
+    <td class="ArchiveTable--hideOnMobile">{{ project.award | default: '-' }}</td>
+    <td class="ArchiveTable-links">
+      {% if project.repo %}
+      <a href="{{ project.repo }}">{% include icons/github.svg %}</a>
+      {% endif %}
+
+      {% if project.website %}
+      <a href="{{ project.website }}">{% include icons/website.svg %}</a>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>

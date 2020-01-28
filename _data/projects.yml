@@ -1,6 +1,5 @@
 - title: Project X
   repo: https://github.com/zero-based
-  award: Best Project
   website: https://zero-based.github.io
   event: Project Event
   date: MMM YYYY
@@ -22,7 +21,6 @@
   repo: https://github.com/zero-based
   award: Best Project
   website: https://zero-based.github.io
-  event: Project Event
   date: MMM YYYY
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
   contributors: [c1, c2, c3, c4, c5]

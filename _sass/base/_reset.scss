@@ -14,7 +14,9 @@ body {
 }
 
 @include headings(4, 6) {
-  color: $gray;
+  &, * {
+    color: $gray;
+  }
 }
 
 ::selection {

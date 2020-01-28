@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="Page">
+
+  <div class="Page-header">
+    <h4>
+      {% assign path = page.url | remove: '.html' | remove: '.md' | split: '/' %}
+      {% for part in path %}
+      <a href="/{{ part }}" target="_self">
+        {% if part == "" %}
+        {{ site.title }}
+        {% else %}
+        {{ part | capitalize }}
+        {% endif %}
+      </a>
+      {% unless forloop.last %}/{% endunless %}
+      {% endfor %}
+    </h4 >
+
+    <h1>{{ page.name  | remove: '.html' | remove: '.md' | capitalize }}</h1>
+    <h4>{{ page.description }}</h4>
+
+  </div>
+
+  {{ content }}
+
+</div>
