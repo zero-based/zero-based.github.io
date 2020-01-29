@@ -3,7 +3,7 @@
     {% assign delay = 0.2 %}
     {% for project in site.data.projects %}
     {% assign delay = delay | plus: 0.2 %}
-    {% include project-card.html %}
+    {% include components/project-card.html %}
     {% endfor %}
   </div>
   <a href="/archive" class="Button wow fadeInUp slow" data-wow-delay="0.2s" target="_self">See more</a>
