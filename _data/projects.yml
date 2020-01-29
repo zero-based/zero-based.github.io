@@ -1,5 +1,5 @@
 - title: Project X
-  repo: https://github.com/zero-based
+  github: https://github.com/zero-based
   website: https://zero-based.github.io
   event: Project Event
   date: MMM YYYY
@@ -8,7 +8,7 @@
   tools: [tool-1, tool-2, tool-3]
 
 - title: Project X
-  repo: https://github.com/zero-based
+  github: https://github.com/zero-based
   award: Best Project
   website: https://zero-based.github.io
   event: Project Event
@@ -18,7 +18,7 @@
   tools: [tool-1, tool-2, tool-3]
 
 - title: Project X
-  repo: https://github.com/zero-based
+  github: https://github.com/zero-based
   award: Best Project
   website: https://zero-based.github.io
   date: MMM YYYY

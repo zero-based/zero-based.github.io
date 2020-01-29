@@ -7,23 +7,9 @@
         {% include {{ icon_path }} %}
       </div>
       <div class="ProjectCard-icons">
-        {% if project.repo %}
-        <a href="{{ project.repo }}">
-          {% include icons/github.svg %}
-        </a>
-        {% endif %}
-
-        {% if project.award %}
-        <a class="tooltip-slide" aria-label="{{ project.award }}" data-balloon-pos="down">
-          {% include icons/award.svg %}
-        </a>
-        {% endif %}
-
-        {% if project.website %}
-        <a href="{{ project.website }}">
-          {% include icons/website.svg %}
-        </a>
-        {% endif %}
+        {% include icon.html icon="GitHub" url=project.github %}
+        {% include icon.html icon="Award" tooltip=project.award %}
+        {% include icon.html icon="Website" url=project.website %}
       </div>
     </div>
 

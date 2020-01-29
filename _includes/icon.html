@@ -1,0 +1,6 @@
+{% if include.url or include.tooltip %}
+<a {% if include.url %} href="{{ include.url }}" {% endif %} class="tooltip-slide"
+  aria-label="{{ include.tooltip | default: include.icon }}" data-balloon-pos="down">
+  {% include {{ include.icon | downcase | prepend: 'icons/' | append: '.svg' }} %}
+</a>
+{% endif %}
