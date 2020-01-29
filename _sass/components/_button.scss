@@ -1,16 +1,12 @@
 .Button {
   border: $border-x2;
   padding: 12px 32px;
-  margin: 16px;
+  margin-top: 64px;
   cursor: pointer;
   transition: background-color 0.4s;
   text-transform: uppercase;
   &:hover {
     background-color: $white;
     color: $black;
-  }
-
-  &--extraMargins {
-    margin: 64px;
   }
 }

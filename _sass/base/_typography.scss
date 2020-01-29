@@ -22,14 +22,39 @@ body {
   }
 }
 
-@for $i from 0 through 5 {
+.Text {
+  &--right {
+    text-align: right;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--gray {
+    &,
+    * {
+      color: $gray;
+    }
+  }
+
+  &--black {
+    &,
+    * {
+      color: $black;
+    }
+  }
+}
+
+.Display {
   $size_step: 2;
   $margin_step: 6;
-
-  .Display-#{$i + 1} {
-    font-size: #{20 - $i * $size_step}vw;
-    margin-bottom: #{60 - $i * $margin_step}px;
-    line-height: 0.8;
+  @for $i from 0 through 5 {
+    &-#{$i + 1} {
+      font-size: #{20 - $i * $size_step}vw;
+      margin-bottom: #{60 - $i * $margin_step}px;
+      line-height: 0.8;
+    }
   }
 }
 
