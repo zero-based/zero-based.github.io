@@ -1,0 +1,8 @@
+<section class="Center">
+  <h1 class="Display-5 Text--center wow fadeInDown slow" data-wow-delay="0.2s">Awards</h1>
+  <div class="AwardsContainer wow fadeInUp slower" data-wow-delay="0.4s">
+    {% for award in site.data.awards %}
+    {% include award-badge.html %}
+    {% endfor %}
+  </div>
+</section>

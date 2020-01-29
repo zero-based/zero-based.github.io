@@ -1,0 +1,11 @@
+<a class="Award" {% if award.link %} href="{{ award.link }}" {% endif %}>
+  <div class="Award-wreath">
+    {% include icons/laurel-wreath.svg %}
+  </div>
+  <div class="Award-body">
+    <h3 class="Award-body-text">{{ award.header }}</h3>
+    <h1 class="Award-body-main">{{ award.rank }}</h1>
+    <h3 class="Award-body-text">{{ award.type }}</h3>
+    <h5 class="Award-body-sub">{{ award.event }}</h5>
+  </div>
+</a>

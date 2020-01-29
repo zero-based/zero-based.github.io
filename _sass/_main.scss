@@ -9,11 +9,13 @@
 @import 'base/typography';
 @import 'base/scrollbars';
 
+@import 'layout/awards-container';
 @import 'layout/cards-container';
 @import 'layout/footer';
 @import 'layout/page';
 @import 'layout/sections';
 
+@import 'components/award';
 @import 'components/animated-link';
 @import 'components/archive-table';
 @import 'components/button';
