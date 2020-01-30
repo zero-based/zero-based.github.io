@@ -2,9 +2,9 @@
   border: $border-x2;
   padding: 12px 32px;
   margin-top: 64px;
-  cursor: pointer;
-  transition: background-color 0.4s;
   text-transform: uppercase;
+  transition: background 0.4s,
+              color 0.4s;
   &:hover {
     background-color: $white;
     color: $black;

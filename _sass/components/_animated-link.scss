@@ -4,9 +4,10 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% 0;
-  transition: background 0.5s;
+  transition: background 0.5s,
+              color 0.5s;
   &:hover {
-    color: $black;
     background-size: 100% 100%;
+    color: $black;
   }
 }
