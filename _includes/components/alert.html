@@ -1,4 +1,4 @@
-<div class="Alert">
+<div id="alert" class="Alert">
   <span>{{ include.msg | default: "Error Message" }}</span>
-  <span class="Alert-close" onclick="this.parentElement.classList.add('Alert--hidden')">×</span>
+  <span class="Alert-close" onclick="closeAlert(this)">×</span>
 </div>
