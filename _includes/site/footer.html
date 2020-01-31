@@ -1,7 +1,21 @@
-<footer>
-  {% assign delay = 0.4 %}
-  {% for link in site.data.footer %}
-  {% assign delay = delay | plus: 0.2 %}
-  <a href="{{ link[1] }}" class="AnimatedLink wow fadeInDown" data-wow-delay="{{ delay }}s">{{ link[0] }}</a>
-  {% endfor %}
+<footer class="Footer">
+
+  <div class="Footer-text Text--center wow fadeIn slow" data-wow-delay="0.2s">
+    <small>
+      &lt;/&gt;
+      with
+      <span class="Text--red">❤</span>
+      by
+      <a href="https://www.google.com">@zero-based</a>
+    </small>
+  </div>
+
+  <div class="Footer-links">
+    {% assign delay = 0.4 %}
+    {% for link in site.data.footer %}
+    {% assign delay = delay | plus: 0.2 %}
+    <a href="{{ link[1] }}" class="AnimatedLink wow fadeInDown" data-wow-delay="{{ delay }}s">{{ link[0] }}</a>
+    {% endfor %}
+  </div>
+
 </footer>
