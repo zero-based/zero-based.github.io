@@ -6,6 +6,14 @@ $border-style: solid $white;
 $border-x1: 1.8px $border-style;
 $border-x2: 2.2px $border-style;
 
+$alignments: left, center, right;
+
+$colors: (
+  black: $black,
+  white: $white,
+  gray: $gray,
+);
+
 $breakpoints: (
   xs: 0,
   sm: 576px,

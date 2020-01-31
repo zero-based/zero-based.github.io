@@ -23,25 +23,18 @@ body {
 }
 
 .Text {
-  &--right {
-    text-align: right;
-  }
-
-  &--center {
-    text-align: center;
-  }
-
-  &--gray {
-    &,
-    * {
-      color: $gray;
+  @each $alignment in $alignments {
+    &--#{$alignment} {
+      text-align: $alignment;
     }
   }
 
-  &--black {
-    &,
-    * {
-      color: $black;
+  @each $name, $code in $colors {
+    &--#{$name + ""} {
+      &,
+      * {
+        color: $code;
+      }
     }
   }
 }
