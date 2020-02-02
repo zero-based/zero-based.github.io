@@ -7,7 +7,7 @@ layout: default
   <h4 class="wow fadeInLeft" data-wow-delay="0.1s">
     {% assign path = page.url | remove: '.html' | remove: '.md' | split: '/' %}
     {% for part in path %}
-    <a href="/{{ part }}" target="_self">
+    <a href="/{{ part }}" target="_self" class="Text--gray">
       {% if part == "" %}
       {{ site.title }}
       {% else %}

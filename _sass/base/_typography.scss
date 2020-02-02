@@ -16,10 +16,7 @@ body {
 }
 
 @include headings(4, 6) {
-  &,
-  * {
-    color: $gray;
-  }
+  color: $gray !important;
 }
 
 .Text {
@@ -31,10 +28,7 @@ body {
 
   @each $name, $code in $colors {
     &--#{$name + ""} {
-      &,
-      * {
-        color: $code;
-      }
+      color: $code !important;
     }
   }
 }
