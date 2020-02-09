@@ -1,9 +1,17 @@
-// Hide alert if close button is clicked before
+const alert = document.getElementById("alert");
+
 if (localStorage.getItem("disable-alert")) {
-  document.getElementById("alert").classList.add("Alert--hidden");
+  removeElement(alert);
+} else {
+  alert?.classList.remove("Alert--hidden");
 }
 
-const closeAlert = element => {
-  element.parentElement.classList.add("Alert--hidden");
+function removeElement(element) {
+  var parent = element?.parentElement;
+  parent?.removeChild(element);
+}
+
+function closeAlert() {
+  removeElement(alert);
   localStorage.setItem("disable-alert", true);
-};
+}

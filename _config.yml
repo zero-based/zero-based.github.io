@@ -6,3 +6,6 @@ description         : Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                       obcaecati esse facilis amet, iure et sit, id sed nostrum officia culpa! Rerum enim excepturi, laborum temporibus
                       quam qui numquam veniam odit?
 repository          : zero-based/zero-based.github.io
+
+# Alert
+alert               : "[BETA] This site is still under development, the data used is only for testing purposes."

@@ -1,4 +1,6 @@
-<div id="alert" class="Alert">
-  <span>{{ include.msg | default: "Error Message" }}</span>
-  <span class="Alert-close" onclick="closeAlert(this)">×</span>
+{% if include.text %}
+<div id="alert" class="Alert Alert--hidden">
+  <span>{{ include.text }}</span>
+  <span class="Alert-close" onclick="closeAlert()">×</span>
 </div>
+{% endif %}
