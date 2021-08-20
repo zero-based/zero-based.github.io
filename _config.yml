@@ -1,10 +1,7 @@
 # Site settings
 title               : Zero-Based
-description         : Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem quaerat nisi, exercitationem ducimus
-                      ratione, ex voluptatibus cumque eaque accusamus praesentium dolor magni officiis ipsa. Similique, repellendus
-                      porro! Nemo ipsa doloribus rem dolorum vitae. Temporibus perferendis suscipit excepturi odit exercitationem in eius
-                      obcaecati esse facilis amet, iure et sit, id sed nostrum officia culpa! Rerum enim excepturi, laborum temporibus
-                      quam qui numquam veniam odit?
+description         : We are a team of friends from Faculty of Computer and Information Sciences at Ain Shams University since 2017. 
+                      We tried to make every project we worked on, a special one, using new tools and best practices.
 repository          : zero-based/zero-based.github.io
 color               : "#000000"
 
