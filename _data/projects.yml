@@ -9,7 +9,7 @@
               New secure payment method for purchasing public transportation tickets
               without the need for internet connection on the passenger phone.
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Node.js, Flutter, React]
+  tools: [Node.js, Flutter, ReactJS]
 
 - title: minim
   featured: true
@@ -22,7 +22,7 @@
               Minimal — and black — chatting mobile app, designed to make
               chatting informative not addictive.
   contributors: [safwat, micha, raafat]
-  tools: [Android, Firebase]
+  tools: [Android(Kotlin), Firebase]
 
 - title: TPD
   featured: true
@@ -31,8 +31,42 @@
   event: ITWorx Coded Summer
   award: 2nd Team
   date: SEP 2020
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
+  description: >-
+               Talent Placement and Deployment tool to manage processes 
+               related to ITWorx resources (skills, certifications, 
+               resource requests, resource release, ...etc.)
   contributors: [tanios, micha, raafat]
-  tools: [Node.js, Next.js, GraphQL, Digital Ocean]
+  tools: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean]
+
+- title: Octillect
+  featured: true
+  github: https://github.com/zero-based/octillect
+  website: https://zero-based.github.io/octillect/
+  event: FCIS-ASU OOP Course
+  award: 2nd Team
+  date: JUN 2019
+  description: >-
+               An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [Java, JavaFX, Firebase, GitHub Api]
+
+- title: RSA Public-key Cryptosystem
+  featured: true
+  github: https://github.com/zero-based/RSA
+  date: JAN 2020
+  description: >-
+               The RSA (Rivest-Shamir-Adleman) cryptosystem is widely used for secure communication.
+               with an efficient (top of the class) implementation of BigInteger class involved.
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [Algorithms, .NET Core, Unit tests]
+
+- title: Wikimedia
+  featured: true
+  github: https://github.com/zero-based/wikimedia
+  date: APR 2020
+  description: >-
+               A platform for community-based knowledge sharing.
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [ASP.NET Core, Node.js, Oracle DB, Docker, Docker compose]
 
 
