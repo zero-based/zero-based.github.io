@@ -5,7 +5,7 @@
       <div>
         <h1 class="ProjectCard-title">{{ project.title }}</h1>
         <h4>{{ project.event }}</h4>
-        <h4>{{ project.date }}</h4>
+        <h4>{{ project.date | date: "%b %Y" | upcase }}</h4>
       </div>
       <div class="ProjectCard-icons">
         {% include icons/icon.html icon="GitHub" url=project.github %}
