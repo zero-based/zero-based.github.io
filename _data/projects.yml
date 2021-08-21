@@ -1,39 +1,38 @@
-- title: Project X1
+- title: Tazkrtak
+  featured: true
+  github: https://github.com/tazkrtak
+  website: https://tazkrtak.web.app
+  event: GovApp Award
+  award: 1st Team
+  date: OCT 2019
+  description: >-
+              New secure payment method for purchasing public transportation tickets
+              without the need for internet connection on the passenger phone.
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [Node.js, Flutter, React]
+
+- title: minim
+  featured: true
+  github: https://github.com/zero-based/minim
+  website: https://zero-based.github.io/minim
+  event: Summer Training
+  award: 1st Team
+  date: JUL 2019
+  description: >-
+              Minimal — and black — chatting mobile app, designed to make
+              chatting informative not addictive.
+  contributors: [safwat, micha, raafat]
+  tools: [Android, Firebase]
+
+- title: TPD
   featured: true
   github: https://github.com/zero-based
   website: https://zero-based.github.io
-  event: Project Event
-  date: 2020-09-01
+  event: ITWorx Coded Summer
+  award: 2nd Team
+  date: SEP 2020
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
-  contributors: [c1, c2, c3, c4, c5]
-  tools: [tool-1, tool-2, tool-3]
+  contributors: [tanios, micha, raafat]
+  tools: [Node.js, Next.js, GraphQL, Digital Ocean]
 
-- title: Project X2
-  featured: true
-  github: https://github.com/zero-based
-  award: Best Project
-  website: https://zero-based.github.io
-  event: Project Event
-  date: 2017-03-25
-  description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias suscipit, quisquam voluptates, fugit magnam perferendis pariatur id nesciunt mollitia tempora reiciendis quo corporis, nobis assumenda culpa? Modi at eveniet ea quae accusantium nostrum iste sint laborum eligendi. Ut, nisi recusandae.
-  contributors: [c1, c2, c3, c4, c5]
-  tools: [tool-1, tool-2, tool-3]
 
-- title: Project X3
-  featured: true
-  github: https://github.com/zero-based
-  award: Best Project
-  website: https://zero-based.github.io
-  date: 2019-07-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
-  contributors: [c1, c2, c3, c4, c5]
-  tools: [tool-1, tool-2, tool-3]
-
-- title: Project X4
-  github: https://github.com/zero-based
-  award: Best Project
-  website: https://zero-based.github.io
-  date: 2018-06-02
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
-  contributors: [c1, c2, c3, c4, c5]
-  tools: [tool-1, tool-2, tool-3]
