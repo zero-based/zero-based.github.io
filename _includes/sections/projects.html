@@ -1,7 +1,8 @@
 <section class="Center">
   <div class="CardsContainer">
     {% assign delay = 0.2 %}
-    {% for project in site.data.projects %}
+    {% assign featured = site.data.projects | where: "featured", true %}
+    {% for project in featured %}
     {% assign delay = delay | plus: 0.2 %}
     {% include components/project-card.html %}
     {% endfor %}

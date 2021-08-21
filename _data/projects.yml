@@ -1,4 +1,5 @@
-- title: Project X
+- title: Project X1
+  featured: true
   github: https://github.com/zero-based
   website: https://zero-based.github.io
   event: Project Event
@@ -7,7 +8,8 @@
   contributors: [c1, c2, c3, c4, c5]
   tools: [tool-1, tool-2, tool-3]
 
-- title: Project X
+- title: Project X2
+  featured: true
   github: https://github.com/zero-based
   award: Best Project
   website: https://zero-based.github.io
@@ -17,11 +19,21 @@
   contributors: [c1, c2, c3, c4, c5]
   tools: [tool-1, tool-2, tool-3]
 
-- title: Project X
+- title: Project X3
+  featured: true
   github: https://github.com/zero-based
   award: Best Project
   website: https://zero-based.github.io
   date: 2019-07-01
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
+  contributors: [c1, c2, c3, c4, c5]
+  tools: [tool-1, tool-2, tool-3]
+
+- title: Project X4
+  github: https://github.com/zero-based
+  award: Best Project
+  website: https://zero-based.github.io
+  date: 2018-06-02
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit Adipisci totam fugiat praesentium quae quia facere reprehenderit!
   contributors: [c1, c2, c3, c4, c5]
   tools: [tool-1, tool-2, tool-3]
