@@ -6,7 +6,7 @@
   github: tazkrtak
   website: https://tazkrtak.web.app
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Node.js, Flutter, ReactJS]
+  tools: [Node.js, Flutter, ReactJS, CI/CD]
   description: New secure payment method for purchasing public transportation tickets
                without the need for internet connection on the passenger phone.
 
@@ -28,7 +28,7 @@
   date: 2020-09-01
   github: zero-based/itworx-tpd
   contributors: [tanios, micha, raafat]
-  tools: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean]
+  tools: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean, CI/CD]
   description: Talent Placement and Deployment tool to manage processes 
                related to ITWorx resources (skills, certifications, 
                resource requests, resource release, ...etc.)
@@ -62,4 +62,34 @@
   tools: [ASP.NET Core, Node.js, Oracle DB, Docker, Docker compose]
   description: A platform for community-based knowledge sharing.
 
+- title: Teeny
+  event: Compilers Course
+  date: 2020-12-01
+  github: zero-based/teeny
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [.NET Core, Unit tests, CI]
+  description: A teeny tiny compiler.
 
+- title: Universal Readiness API
+  event: Universal Acceptance Hackathon — Cairo, Egypt
+  date: 2019-08-25
+  github: zero-based/uah
+  contributors: [safwat, micha, raafat]
+  tools: [Firebase serverless functions, REST API, Android(Kotlin)]
+  description: Api to validate domain universal readiness.
+
+- title: Secured Communication
+  event: Assembly Course
+  date: 2019-12-01
+  github: zero-based/secured-communication
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [.NET Framework, assembly-x86, Web Sockets, Steganography, AES Algorithm]
+  description: Encrypted messaging solution with an involved Advanced Encryption Standard (AES) and Steganography implementation in assembly-x86.
+
+- title: Arduino Visitor Counter
+  event: Electronics Course
+  date: 2018-07-01
+  github: zero-based/arduino-visitor-counter
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [Arduino UNO]
+  description: Bi-Directional digital visitor counter gate and automatic room light controller.
