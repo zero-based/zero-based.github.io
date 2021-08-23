@@ -1,72 +1,65 @@
 - title: Tazkrtak
   featured: true
-  github: https://github.com/tazkrtak
-  website: https://tazkrtak.web.app
   event: GovApp Award
   award: 1st Team
-  date: OCT 2019
-  description: >-
-              New secure payment method for purchasing public transportation tickets
-              without the need for internet connection on the passenger phone.
+  date: 2019-10-01
+  github: tazkrtak
+  website: https://tazkrtak.web.app
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [Node.js, Flutter, ReactJS]
+  description: New secure payment method for purchasing public transportation tickets
+               without the need for internet connection on the passenger phone.
 
 - title: minim
   featured: true
-  github: https://github.com/zero-based/minim
-  website: https://zero-based.github.io/minim
   event: Summer Training
   award: 1st Team
-  date: JUL 2019
-  description: >-
-              Minimal — and black — chatting mobile app, designed to make
-              chatting informative not addictive.
+  date: 2019-07-01
+  github: zero-based/minim
+  website: ./minim
   contributors: [safwat, micha, raafat]
   tools: [Android(Kotlin), Firebase]
+  description: Minimal — and black — chatting mobile app, designed to make
+               chatting informative not addictive.
 
 - title: TPD
-  featured: true
-  github: https://github.com/zero-based
-  website: https://zero-based.github.io
   event: ITWorx Coded Summer
   award: 2nd Team
-  date: SEP 2020
-  description: >-
-               Talent Placement and Deployment tool to manage processes 
-               related to ITWorx resources (skills, certifications, 
-               resource requests, resource release, ...etc.)
+  date: 2020-09-01
+  github: zero-based/itworx-tpd
   contributors: [tanios, micha, raafat]
   tools: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean]
+  description: Talent Placement and Deployment tool to manage processes 
+               related to ITWorx resources (skills, certifications, 
+               resource requests, resource release, ...etc.)
 
 - title: Octillect
   featured: true
-  github: https://github.com/zero-based/octillect
-  website: https://zero-based.github.io/octillect/
-  event: FCIS-ASU OOP Course
+  event: OOP Course
   award: 2nd Team
-  date: JUN 2019
-  description: >-
-               An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
+  date: 2019-06-01
+  github: zero-based/octillect
+  website: ./octillect
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [Java, JavaFX, Firebase, GitHub Api]
+  description: An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
 
 - title: RSA Public-key Cryptosystem
-  featured: true
-  github: https://github.com/zero-based/RSA
-  date: JAN 2020
-  description: >-
-               The RSA (Rivest-Shamir-Adleman) cryptosystem is widely used for secure communication.
-               with an efficient (top of the class) implementation of BigInteger class involved.
+  event: Algorithms Course
+  award: Fastest Algorithm
+  date: 2020-01-01
+  github: zero-based/RSA
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [Algorithms, .NET Core, Unit tests]
+  description: The RSA (Rivest-Shamir-Adleman) cryptosystem is widely used for secure communication.
+               with an efficient (top of the class) implementation of BigInteger class involved.
 
 - title: Wikimedia
-  featured: true
-  github: https://github.com/zero-based/wikimedia
-  date: APR 2020
-  description: >-
-               A platform for community-based knowledge sharing.
+  event: Database Course
+  date: 2020-04-01
+  github: zero-based/wikimedia
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [ASP.NET Core, Node.js, Oracle DB, Docker, Docker compose]
+  description: A platform for community-based knowledge sharing.
 
 
