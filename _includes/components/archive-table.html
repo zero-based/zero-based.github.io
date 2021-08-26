@@ -16,8 +16,8 @@
     <td class="ArchiveTable--hideOnMobile">{{ project.tools | join: ' • '}}</td>
     <td class="ArchiveTable--hideOnMobile">{{ project.award | default: '-' }}</td>
     <td class="ArchiveTable-links">
-      {% include icons/icon.html icon="GitHub" url=project.github %}
       {% include icons/icon.html icon="Website" url=project.website %}
+      {% include icons/icon.html icon="GitHub" url=project.github %}
     </td>
   </tr>
   {% endfor %}
