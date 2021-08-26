@@ -23,6 +23,7 @@
                chatting informative not addictive.
 
 - title: TPD
+  featured: true
   event: ITWorx Coded Summer
   award: 2nd Team
   date: 2020-09-01
@@ -44,17 +45,18 @@
   tools: [Java, JavaFX, Firebase, GitHub API]
   description: An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
 
-- title: RSA Public-key Cryptosystem
+- title: RSA
+  featured: true
   event: Algorithms Course
-  award: Fastest Algorithm
+  award: Fastest Algorithm in Class
   date: 2020-01-01
   github: zero-based/RSA
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [Algorithms, .NET Core, Unit tests]
-  description: The RSA (Rivest-Shamir-Adleman) cryptosystem is widely used for secure communication.
-               with an efficient (top of the class) implementation of BigInteger class involved.
+  description: The RSA Public-key Cryptosystem with an efficient implementation of the BigInteger class.
 
 - title: Wikimedia
+  featured: true
   event: Database Course
   award: One of Top 3
   date: 2020-04-01
@@ -114,7 +116,7 @@
   description: Smart way for parking.
 
 - title: FitnessApp
-  event: Database Course
+  event: Information Systems Course
   award: One of Top 3
   date: 2018-11-09
   github: zero-based/FitnessApp
