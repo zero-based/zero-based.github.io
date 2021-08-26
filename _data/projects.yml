@@ -18,7 +18,7 @@
   github: zero-based/minim
   website: ./minim
   contributors: [safwat, micha, raafat]
-  tools: [Android(Kotlin), Firebase]
+  tools: [Android (Kotlin), Firebase]
   description: Minimal — and black — chatting mobile app, designed to make
                chatting informative not addictive.
 
@@ -42,7 +42,7 @@
   github: zero-based/octillect
   website: ./octillect
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Java, JavaFX, Firebase, GitHub API]
+  tools: [Java, JavaFX, GitHub API, Firebase]
   description: An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
 
 - title: RSA
@@ -79,7 +79,7 @@
   date: 2019-08-25
   github: zero-based/uah
   contributors: [safwat, micha, raafat]
-  tools: [Firebase serverless functions, REST API, Android(Kotlin)]
+  tools: [Firebase functions, REST API, Android (Kotlin)]
   description: API to validate domain universal readiness.
 
 - title: Secured Communication
