@@ -6,7 +6,7 @@
   github: tazkrtak
   website: https://tazkrtak.web.app
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Node.js, Flutter, ReactJS, CI/CD]
+  technologies: [Node.js, Flutter, ReactJS, CI/CD]
   description: New secure payment method for purchasing public transportation tickets
                without the need for internet connection on the passenger phone.
 
@@ -18,7 +18,7 @@
   github: zero-based/minim
   website: ./minim
   contributors: [safwat, micha, raafat]
-  tools: [Android (Kotlin), Firebase]
+  technologies: [Android (Kotlin), Firebase]
   description: Minimal — and black — chatting mobile app, designed to make
                chatting informative not addictive.
 
@@ -29,7 +29,7 @@
   date: 2020-09-01
   github: zero-based/itworx-tpd
   contributors: [tanios, micha, raafat]
-  tools: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean, CI/CD]
+  technologies: [Node.js, Next.js, Typescript, GraphQL, Digital Ocean, CI/CD]
   description: Talent Placement and Deployment tool to manage processes 
                related to ITWorx resources (skills, certifications, 
                resource requests, resource release, ...etc.)
@@ -42,7 +42,7 @@
   github: zero-based/octillect
   website: ./octillect
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Java, JavaFX, GitHub API, Firebase]
+  technologies: [Java, JavaFX, GitHub API, Firebase]
   description: An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
 
 - title: RSA
@@ -52,7 +52,7 @@
   date: 2020-01-01
   github: zero-based/RSA
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Algorithms, .NET Core, Unit tests]
+  technologies: [Algorithms, .NET Core, Unit tests]
   description: The RSA Public-key Cryptosystem with an efficient implementation of the BigInteger class.
 
 - title: Wikimedia
@@ -62,7 +62,7 @@
   date: 2020-04-01
   github: zero-based/wikimedia
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [ASP.NET Core, Node.js, Oracle DB, Docker, Docker compose]
+  technologies: [ASP.NET Core, Node.js, Oracle DB, Docker, Docker compose]
   description: A platform for community-based knowledge sharing.
 
 - title: Teeny
@@ -70,7 +70,7 @@
   date: 2020-12-01
   github: zero-based/teeny
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [.NET Core, Unit tests, CI]
+  technologies: [.NET Core, Unit tests, CI]
   description: A teeny tiny compiler.
 
 - title: Universal Readiness API
@@ -79,7 +79,7 @@
   date: 2019-08-25
   github: zero-based/uah
   contributors: [safwat, micha, raafat]
-  tools: [Firebase functions, REST API, Android (Kotlin)]
+  technologies: [Firebase functions, REST API, Android (Kotlin)]
   description: API to validate domain universal readiness.
 
 - title: Secured Communication
@@ -87,7 +87,7 @@
   date: 2019-12-01
   github: zero-based/secured-communication
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [.NET Framework, assembly-x86, Web Sockets, Steganography, AES Algorithm]
+  technologies: [.NET Framework, assembly-x86, Web Sockets, Steganography, AES Algorithm]
   description: Encrypted messaging solution with an involved Advanced Encryption Standard (AES) and Steganography implementation in assembly-x86.
 
 - title: Arduino Visitor Counter
@@ -95,7 +95,7 @@
   date: 2018-07-01
   github: zero-based/arduino-visitor-counter
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Arduino UNO]
+  technologies: [Arduino UNO]
   description: Bi-Directional digital visitor counter gate and automatic room light controller.
 
 - title: Zx7E4
@@ -103,7 +103,7 @@
   date: 2020-03-17
   github: zero-based/Zx7E4
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [VHDL, Docker]
+  technologies: [VHDL, Docker]
   description: Computer processor simulation.
 
 - title: Parc
@@ -112,7 +112,7 @@
   date: 2019-11-28
   github: zero-based/SCH2019
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Flutter, Arduino, Node.js]
+  technologies: [Flutter, Arduino, Node.js]
   description: Smart way for parking.
 
 - title: FitnessApp
@@ -121,7 +121,7 @@
   date: 2018-11-09
   github: zero-based/FitnessApp
   contributors: [safwat, atef, micha, raafat]
-  tools: [C#, WPF, SQL Server]
+  technologies: [C#, WPF, SQL Server]
   description: Desktop app to track calories and exercises.
 
 - title: HangCow
@@ -129,7 +129,7 @@
   date: 2018-07-17
   github: zero-based/hangcow
   contributors: [safwat, tanios, micha, raafat]
-  tools: [C#, WinForms]
+  technologies: [C#, WinForms]
   description: Hangman game but with a Cow instead.
 
 - title: Movie Store
@@ -138,5 +138,5 @@
   date: 2018-03-09
   github: zero-based/movie-store-management
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [C++]
+  technologies: [C++]
   description: Our first project together, a console app to manage movie stores.

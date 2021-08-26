@@ -3,7 +3,7 @@
     <th>Year</th>
     <th>Title</th>
     <th class="ArchiveTable--hideOnMobile">Event</th>
-    <th class="ArchiveTable--hideOnMobile">Tools</th>
+    <th class="ArchiveTable--hideOnMobile">Technologies</th>
     <th class="ArchiveTable--hideOnMobile">Awards</th>
     <th class="ArchiveTable-links">Links</th>
   </tr>
@@ -13,7 +13,7 @@
     <td>{{ project.date | date: "%Y" }}</td>
     <td>{{ project.title }}</td>
     <td class="ArchiveTable--hideOnMobile">{{ project.event | default: '-' }}</td>
-    <td class="ArchiveTable--hideOnMobile">{{ project.tools | join: ' • '}}</td>
+    <td class="ArchiveTable--hideOnMobile">{{ project.technologies | join: ' • '}}</td>
     <td class="ArchiveTable--hideOnMobile">{{ project.award | default: '-' }}</td>
     <td class="ArchiveTable-links">
       {% include icons/icon.html icon="Website" url=project.website %}
