@@ -41,7 +41,7 @@
   github: zero-based/octillect
   website: ./octillect
   contributors: [safwat, tanios, atef, micha, raafat]
-  tools: [Java, JavaFX, Firebase, GitHub Api]
+  tools: [Java, JavaFX, Firebase, GitHub API]
   description: An Intellectual Octopus for managing your tasks and projects in a Kanban board style.
 
 - title: RSA Public-key Cryptosystem
@@ -56,6 +56,7 @@
 
 - title: Wikimedia
   event: Database Course
+  award: One of Top 3
   date: 2020-04-01
   github: zero-based/wikimedia
   contributors: [safwat, tanios, atef, micha, raafat]
@@ -71,12 +72,13 @@
   description: A teeny tiny compiler.
 
 - title: Universal Readiness API
-  event: Universal Acceptance Hackathon — Cairo, Egypt
+  event: Universal Acceptance Hackathon
+  award: 1st Team
   date: 2019-08-25
   github: zero-based/uah
   contributors: [safwat, micha, raafat]
   tools: [Firebase serverless functions, REST API, Android(Kotlin)]
-  description: Api to validate domain universal readiness.
+  description: API to validate domain universal readiness.
 
 - title: Secured Communication
   event: Assembly Course
@@ -93,3 +95,46 @@
   contributors: [safwat, tanios, atef, micha, raafat]
   tools: [Arduino UNO]
   description: Bi-Directional digital visitor counter gate and automatic room light controller.
+
+- title: Zx7E4
+  event: Computer Architecture Course
+  date: 2020-03-17
+  github: zero-based/Zx7E4
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [VHDL, Docker]
+  description: Computer processor simulation.
+
+- title: Parc
+  event: Smart City Hackathon
+  award: 3rd Team
+  date: 2019-11-28
+  github: zero-based/SCH2019
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [Flutter, Arduino, Node.js]
+  description: Smart way for parking.
+
+- title: FitnessApp
+  event: Database Course
+  award: One of Top 3
+  date: 2018-11-09
+  github: zero-based/FitnessApp
+  contributors: [safwat, atef, micha, raafat]
+  tools: [C#, WPF, SQL Server]
+  description: Desktop app to track calories and exercises.
+
+- title: HangCow
+  event: Summer Competition
+  date: 2018-07-17
+  github: zero-based/hangcow
+  contributors: [safwat, tanios, micha, raafat]
+  tools: [C#, WinForms]
+  description: Hangman game but with a Cow instead.
+
+- title: Movie Store
+  event: Structured Programming Course
+  award: 8th Team
+  date: 2018-03-09
+  github: zero-based/movie-store-management
+  contributors: [safwat, tanios, atef, micha, raafat]
+  tools: [C++]
+  description: Our first project together, a console app to manage movie stores.
