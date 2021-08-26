@@ -4,6 +4,3 @@ description         : We are a team of friends from Faculty of Computer and Info
                       We tried to make every project we worked on, a special one, using new tools and best practices.
 repository          : zero-based/zero-based.github.io
 color               : "#000000"
-
-# Alert
-alert               : "[BETA] This site is still under development, the data used is only for testing purposes."
