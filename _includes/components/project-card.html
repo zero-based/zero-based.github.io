@@ -8,7 +8,8 @@
         <h4>{{ project.date | date: "%b %Y" | upcase }}</h4>
       </div>
       <div class="ProjectCard-icons">
-        {% include icons/icon.html icon="GitHub" url=project.github %}
+        {% assign github = project.github | prepend: 'https://github.com/' %}
+        {% include icons/icon.html icon="GitHub" url=github %}
         {% include icons/icon.html icon="Award" tooltip=project.award %}
         {% include icons/icon.html icon="Website" url=project.website %}
       </div>
