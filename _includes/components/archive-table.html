@@ -17,7 +17,8 @@
     <td class="ArchiveTable--hideOnMobile">{{ project.award | default: '-' }}</td>
     <td class="ArchiveTable-links">
       {% include icons/icon.html icon="Website" url=project.website %}
-      {% include icons/icon.html icon="GitHub" url=project.github %}
+      {% assign githubURL = 'https://github.com/' | append: project.github %}
+      {% include icons/icon.html icon="GitHub" url=githubURL %}
     </td>
   </tr>
   {% endfor %}
